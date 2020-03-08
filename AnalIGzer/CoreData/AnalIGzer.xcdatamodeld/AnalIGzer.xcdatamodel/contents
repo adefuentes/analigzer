@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Owner" representedClassName="Owner" syncable="YES" codeGenerationType="class">
+        <attribute name="biography" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edge_follow" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="edge_followed_by" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="full_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" parentEntity="Owner" syncable="YES" codeGenerationType="class">
+        <attribute name="blocked_by_viewer" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="edge_mutual_followed_by" optional="YES" attributeType="Transformable" customClassName="[String]" syncable="YES"/>
+        <attribute name="has_blocked_viewer" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="has_requested_viewer" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_business_account" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_joined_recently" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_private" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_verified" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="profile_pic_url_hd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requested_by_viewer" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Owner" positionX="-394.46484375" positionY="-242.5390625" width="113.05078125" height="148"/>
+        <element name="User" positionX="-412.37109375" positionY="-11.59765625" width="152.41796875" height="193"/>
+    </elements>
+</model>

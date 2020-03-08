@@ -1,0 +1,1673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C1A7F93F114E4E6B8B31A59BDAF511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		08F75A3E552C5FB0030A007EAC31B2C2 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF055047BBCAAA0FF83E3854F6BCD7 /* DotDrawingLayer.swift */; };
+		09351CEDB3C7C3FAEA11A91CF7480860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		09C45B88B9864CA5688FF3DCFE1DC958 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA1C5F9C88583CB298B3738CF5E792A /* LinePlot.swift */; };
+		0ACA8A770C16C409F941B0763CA02881 /* DGElasticPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A164691937A51EEC2BADA2BC65070E6 /* DGElasticPullToRefresh-dummy.m */; };
+		0F0ECD8FB5D7C5A0D33BD36C0ADA5812 /* SwiftInstagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A814FB6BD77A92B9BC918FC397003 /* SwiftInstagram-dummy.m */; };
+		116724FE7D4A36354B314C2ECD39F275 /* InstagramLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154105F9B99DCE2B1AB32479061BF8C /* InstagramLocation.swift */; };
+		1CE29447372B0DD7B4B26D270EA9F2C7 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95F3502E110A7C340EF93BF96AECC6 /* GraphPointAnimation.swift */; };
+		24CEE2EDDA0EDCF0864A65DBDE2375D3 /* URL+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A783B788A45C539C58BBE2386DC4E /* URL+SwiftInstagram.swift */; };
+		28A6023A32F47A57B95B6A4D94754471 /* Pods-AnalIGzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7B0F91FF43EE3D1EC31F4241384C3A /* Pods-AnalIGzer-dummy.m */; };
+		2B0B13D59CE692D1D7DDAD50A518427A /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7B5CB670D03A3CFA89E23BB9D589E /* Tags.swift */; };
+		2BE9F7AF93979C5A2B8E38A8F7F6E981 /* Pastel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACA86F9E9DAF7C053A4F4D216FF8E9 /* Pastel-dummy.m */; };
+		2C644A0412023C7D9F39CF84034CAAC2 /* Dictionary+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E362710B764A58161B62891CDCF94 /* Dictionary+SwiftInstagram.swift */; };
+		2E7A1D8482B10AE9D62BE6CE85AA17C9 /* Pods-AnalIGzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6E6AD6439163D8F675BF268E505F79 /* Pods-AnalIGzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E71F15745A847E7262B0460AC064F9 /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC607F486040B6C23CCBCFD90E08868F /* ScrollableGraphView-dummy.m */; };
+		36B5BB9EA1AEB2A6A5391D7502AD310A /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6707D84C60F626A0B37AC0AAC13844A5 /* DGElasticPullToRefreshView.swift */; };
+		430B93A1C2EBAD107A34DC8BE4CD92AA /* InstagramLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C3C65B42F624DCB64B06AF3713346 /* InstagramLoginViewController.swift */; };
+		45CB845AA4458897C9D0D1ACF109B493 /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBC13D73813F26A57AA367F44802451 /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A843FC4333F472DCC46AA558503B1F8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48085792C765DFE4BAA1DA76B825706E /* Users.swift */; };
+		53B21281BDDBA344C3DB8CA1CFB20AF1 /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAC59BE4D6DDEDA07FB8E03D26F155 /* BarPlot.swift */; };
+		55DED2DA218B157321C7FA3A3007059D /* Pods-AnalIGzerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E51EC5F517F582530A032CD70D5D702 /* Pods-AnalIGzerUITests-dummy.m */; };
+		57872E858EFEAEEA96211227488B8C55 /* PastelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1D0F1B1D15342A86CAAB8CA7A4F21 /* PastelLabel.swift */; };
+		57CC42CD953DD977357B45D232B417F1 /* InstagramRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF2C71F783756F839BF782F89526B3 /* InstagramRelationship.swift */; };
+		5B743A2BC1EBCFB2425ECA4DDD8CAC27 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB3DBA0C751AD928ED113F2D436405B /* ScrollableGraphViewDrawingLayer.swift */; };
+		5CA87256F696D81CC8C587BCFE55B7D5 /* InstagramUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC96A1C4F332D29BEAEAC77291107C8 /* InstagramUser.swift */; };
+		6145B279A7EC499F2644CFBA23DE6A39 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A43D53F577530BD6190F8DE1FD6237 /* Locations.swift */; };
+		697700C055A9891332690D78DD7915DF /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778E8A56C70766C44BF00795B7B0CF8A /* Instagram.swift */; };
+		71CA702120A75FFD096EC18C6990803A /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB875DAA42D89D08D7857DCE2A80C4 /* ReferenceLines.swift */; };
+		72DC939603A9F0BBD0E8D66457236FE1 /* PastelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C765B82C20B17CE6D98E112554A6D1 /* PastelPoint.swift */; };
+		744C2DD91E067C8AC39CE5A94BC1184E /* SwiftInstagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147559F56277147C112B32791C185290 /* SwiftInstagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763EE2A00C98AF4C4C1E154F57409D51 /* Pods-AnalIGzerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0935B35CD24597362EA43F6E4635182E /* Pods-AnalIGzerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7728B9598BFA0FC14FB583D14EDB2C00 /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C2FB8A44EE1C72C581D4010D11F12 /* DGElasticPullToRefreshExtensions.swift */; };
+		7CEB6BC705BF1FD427C76011FDC3EB3A /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514175C09168C3A31487218D9C34D2FD /* Plot.swift */; };
+		7D89FE45186E8B9D28519A473636F1B9 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392E0E9DFDB01C2F6659FFBDD235622 /* Comments.swift */; };
+		80FC61F077C7758EEA50C0383C0C6971 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A297E5FAE11E3CA7753B91608896D7 /* ScrollableGraphView.swift */; };
+		83545CC4977D2B3D91AA8D64D13E8D41 /* Pastel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF83E8B68EBF3183C8F952D7C17EB758 /* Pastel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CE8F20D6793E188E4C0F1C49DC6774 /* Data+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F093CED638BD259A3E0A61B563F60 /* Data+SwiftInstagram.swift */; };
+		87B50D23BAB0F0ED78FAA9BCC5012141 /* DGElasticPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F95FC5EEFFF51F6ED27254ED60985 /* DGElasticPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB08E0112FE77350B8F4254FF8151FD /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F7B74E9BBE25768E2E3565A1643B3 /* LineDrawingLayer.swift */; };
+		8D541A591FF2C2E9B174C541A220F323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		94DA08DE5D00E34A4EB331501CB89BD6 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E613D9C17228C6776C92B867C21B3B3C /* LabelPool.swift */; };
+		9B309C17CDEAB4274D025631EDB351CA /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127D5D748ABB49DCE7E9FEE78E29F56 /* FillDrawingLayer.swift */; };
+		A5D4059A82C376363A00F577757C959E /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D2ED382DB9C23FDCDFBA8F93A8905 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		A6C8889CBF69AF8B77AD59F647F9BF6F /* InstagramTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA3F2742B8E4E48012B322352F0008 /* InstagramTag.swift */; };
+		A81591792EA22D586F34FDA7063EFF2D /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836E76861A3937943631B5F636E17C8 /* DGElasticPullToRefreshLoadingView.swift */; };
+		AAB7529DD084D470CEF83176C2CE09A7 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6FC8E18180326F4D8238D8F454EE4 /* BarDrawingLayer.swift */; };
+		ABD6D62FBBFB93AB92954B25476E42A0 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080BD64FB080E423BE07A9D504730F8 /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		AD9570B0719BE29203EDC3DB4BF87C77 /* Array+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3F6114680E11A3DCF38E24E027D8C /* Array+SwiftInstagram.swift */; };
+		AE114A478A24C3F749CD2AC1516C6007 /* PastelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90C05C3670434C86742A5C1D706B1E /* PastelView.swift */; };
+		B1EBC928DA1FCA69F2EF8EABECB29467 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4422CDC185AA4C4506AC963CDB5A5A /* KeychainSwiftDistrib.swift */; };
+		B2CD0B2B1AC3E3D7C28BBE7622B96778 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B848FE051ACD99E337CB1B152D2FF5 /* GradientDrawingLayer.swift */; };
+		B89574C7A84CC7F04B6595A2A11CD9CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		B9EE0E94F6724CB8926D3DFC8B4AA332 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52501CD5D41BE8AFBD685FB704622C /* DotPlot.swift */; };
+		BD08ADD7673A97EC6623B2789B7274CC /* PastelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4DE713D78A0B60951B4DD54987B72B /* PastelGradient.swift */; };
+		BF2D2EE97F23CBF2180082EFF4FB3990 /* InstagramComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9617C8E30CAFE54A83B8C118ADE631 /* InstagramComment.swift */; };
+		C012A77536AD38F81E92AD6051663CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C3C4E4536B0132ADFC1F30BFD89CA894 /* Optional+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB05AB8158C1B4E4E00B5CF254BDD1 /* Optional+SwiftInstagram.swift */; };
+		C3D537060FB80816D1470DDD522D4A54 /* Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D758031C6F471BDBCD48F98F8E2A8 /* Relationships.swift */; };
+		C73D220B7AB2794E2D442B2F333B90A8 /* InstagramError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF2367398B06BCFFBDB2DBE870CB2A /* InstagramError.swift */; };
+		D8C822C1C820DDEDEC4664250DBD7739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		D91A3F7D717A2F507F29F3BAF2058186 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D216548FDE6709957D28E86DEE39A3A /* GraphPoint.swift */; };
+		DBBA457F22521F41B3C9A3564E706C44 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DEFB4EAFB7B51C2AF1E21C982FCB4C /* Media.swift */; };
+		DC5993B1E32C0AF3BE9A3BF3504C07BF /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934093258B67631D48F70F8C990D9D6C /* ReferenceLineDrawingView.swift */; };
+		DF99B98B7D54AEA50C2D34872936760A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		E4E38A9132AB8F6713B51D17FCF4071C /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E8AE17945DE5929E3D476629CBF95A /* ScrollableGraphViewDataSource.swift */; };
+		EA1B90F37B0342FCAF685C61EA6DCF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		EC49E201D469D6C48EC84EFFAB82D3A5 /* InstagramScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EA4BCDF3C3A1F448C93ACA16AEC19 /* InstagramScope.swift */; };
+		ECB9009153CF935AA83EE3EB786B7827 /* Pods-AnalIGzerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9F5A73B4BB2E35DDE7256D6CBF785A /* Pods-AnalIGzerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02B00DDE562D9F3D610310A64F45749 /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35492280052059A2F995B4491AC8991 /* InstagramResponse.swift */; };
+		F36BAA67C3F671C1064E015C89FFE7A3 /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5BA16438E0B3D8F13F9A11E6CEBB8 /* Likes.swift */; };
+		F6CE5DC9F7FE0C6E6FE9617AA973FB78 /* InstagramMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E2129F80BCA496425BE2493F20043B /* InstagramMedia.swift */; };
+		F7F24878C8E2013CBF1992AE46709066 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AE39F0FCC3F2E587D30899136B0263 /* DGElasticPullToRefreshConstants.swift */; };
+		F81274748C36233BE1F93CD1DD3B6FC0 /* Pods-AnalIGzerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCBCE1183D69AA83041CB5FCCD10611 /* Pods-AnalIGzerTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AAF81A6C35782587BBCA41A99C58C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867FC1AC32E583B5694F72295342E3AB;
+			remoteInfo = SwiftInstagram;
+		};
+		1CAE75EB82D45DA13B96BD3E05FE0F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3B9DBB80E92A26775DA0310AF9EF27;
+			remoteInfo = "Pods-AnalIGzer";
+		};
+		241EFE11F4508AF348C86B979A833808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3B9DBB80E92A26775DA0310AF9EF27;
+			remoteInfo = "Pods-AnalIGzer";
+		};
+		3F318CCA22249472DFCF6EEAA01D23EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B802173CC1EAB3FC68B97D010400ABEA;
+			remoteInfo = Pastel;
+		};
+		77F29DEC7C86588D6256826F44D62DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8FFD9FE0349585D98227B62C7D8C1E;
+			remoteInfo = DGElasticPullToRefresh;
+		};
+		E23E90CA85ACB996F836093634A795CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C7680B9CE6C87065E90234077CE310;
+			remoteInfo = ScrollableGraphView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E80E11808741D4AA466A7641B97767 /* SwiftInstagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftInstagram.modulemap; sourceTree = "<group>"; };
+		0185CB963EA56EF77387D7E3B6AE15D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480812B75BF2E1018E7C520F0A46320 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A297E5FAE11E3CA7753B91608896D7 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		0935B35CD24597362EA43F6E4635182E /* Pods-AnalIGzerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnalIGzerTests-umbrella.h"; sourceTree = "<group>"; };
+		0A3E79109C7E0AAB7672CBC031149855 /* Pods-AnalIGzerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalIGzerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BDE09B4273CB83CD45A9803B656FCED /* Pods-AnalIGzerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzerTests-frameworks.sh"; sourceTree = "<group>"; };
+		0E51EC5F517F582530A032CD70D5D702 /* Pods-AnalIGzerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalIGzerUITests-dummy.m"; sourceTree = "<group>"; };
+		0E9A814FB6BD77A92B9BC918FC397003 /* SwiftInstagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftInstagram-dummy.m"; sourceTree = "<group>"; };
+		0FBAC59BE4D6DDEDA07FB8E03D26F155 /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
+		147559F56277147C112B32791C185290 /* SwiftInstagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftInstagram-umbrella.h"; sourceTree = "<group>"; };
+		174924356DB41D64769DFD2832678548 /* Pods-AnalIGzerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalIGzerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C4DE713D78A0B60951B4DD54987B72B /* PastelGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelGradient.swift; path = Pastel/Classes/PastelGradient.swift; sourceTree = "<group>"; };
+		1CA1D0F1B1D15342A86CAAB8CA7A4F21 /* PastelLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelLabel.swift; path = Pastel/Classes/PastelLabel.swift; sourceTree = "<group>"; };
+		1CF0C7682A2F81394708E73618E85B6B /* Pods-AnalIGzerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzerTests-resources.sh"; sourceTree = "<group>"; };
+		1EB3DBA0C751AD928ED113F2D436405B /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingLayer.swift; path = Classes/Drawing/ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		1EB8BC08E6AEBC989D89510522925FEB /* Pods-AnalIGzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalIGzer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2010E5CB43729F88C9C612984910DC42 /* Pastel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-prefix.pch"; sourceTree = "<group>"; };
+		24AE39F0FCC3F2E587D30899136B0263 /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshConstants.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		26606B7D32EB1F60878F5EAB57F505AB /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
+		27B848FE051ACD99E337CB1B152D2FF5 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDrawingLayer.swift; path = Classes/Drawing/GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		295F95FC5EEFFF51F6ED27254ED60985 /* DGElasticPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		29DEFB4EAFB7B51C2AF1E21C982FCB4C /* Media.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Media.swift; path = Sources/Endpoints/Media.swift; sourceTree = "<group>"; };
+		2C90C05C3670434C86742A5C1D706B1E /* PastelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelView.swift; path = Pastel/Classes/PastelView.swift; sourceTree = "<group>"; };
+		3080BD64FB080E423BE07A9D504730F8 /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingViewCircle.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		32CF055047BBCAAA0FF83E3854F6BCD7 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
+		36A3F6114680E11A3DCF38E24E027D8C /* Array+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+SwiftInstagram.swift"; path = "Sources/Extensions/Array+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		371EA4BCDF3C3A1F448C93ACA16AEC19 /* InstagramScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramScope.swift; path = Sources/InstagramScope.swift; sourceTree = "<group>"; };
+		373260DE8E5B9982F522A7A2EFED0C92 /* DGElasticPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGElasticPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3836E76861A3937943631B5F636E17C8 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		3D216548FDE6709957D28E86DEE39A3A /* GraphPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPoint.swift; path = Classes/Plots/Animation/GraphPoint.swift; sourceTree = "<group>"; };
+		3D6CAF5998CDF144BB43E50F2099A644 /* SwiftInstagram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftInstagram.xcconfig; sourceTree = "<group>"; };
+		3F9617C8E30CAFE54A83B8C118ADE631 /* InstagramComment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramComment.swift; path = Sources/Models/InstagramComment.swift; sourceTree = "<group>"; };
+		41B7B5CB670D03A3CFA89E23BB9D589E /* Tags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tags.swift; path = Sources/Endpoints/Tags.swift; sourceTree = "<group>"; };
+		41D6FC8E18180326F4D8238D8F454EE4 /* BarDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDrawingLayer.swift; path = Classes/Drawing/BarDrawingLayer.swift; sourceTree = "<group>"; };
+		428FDEEC3863B3055FEFFB75A85C6F87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E2129F80BCA496425BE2493F20043B /* InstagramMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramMedia.swift; path = Sources/Models/InstagramMedia.swift; sourceTree = "<group>"; };
+		48085792C765DFE4BAA1DA76B825706E /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Sources/Endpoints/Users.swift; sourceTree = "<group>"; };
+		4A164691937A51EEC2BADA2BC65070E6 /* DGElasticPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGElasticPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		4D4422CDC185AA4C4506AC963CDB5A5A /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftDistrib.swift; path = Sources/Helpers/KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		50565F68BEAEAD3D379356908E68FE12 /* Pods-AnalIGzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnalIGzer.modulemap"; sourceTree = "<group>"; };
+		514175C09168C3A31487218D9C34D2FD /* Plot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plot.swift; path = Classes/Plots/Plot.swift; sourceTree = "<group>"; };
+		5531DEBCCDCD92066C02BB5D313AEF18 /* Pods-AnalIGzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzer-frameworks.sh"; sourceTree = "<group>"; };
+		5A52501CD5D41BE8AFBD685FB704622C /* DotPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotPlot.swift; path = Classes/Plots/DotPlot.swift; sourceTree = "<group>"; };
+		5E6E6AD6439163D8F675BF268E505F79 /* Pods-AnalIGzer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnalIGzer-umbrella.h"; sourceTree = "<group>"; };
+		6172167A069C14D37FDE35F79B58C8BF /* Pods-AnalIGzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzer.release.xcconfig"; sourceTree = "<group>"; };
+		61DB875DAA42D89D08D7857DCE2A80C4 /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
+		63FC88DD3730BCAC2402FA2868E5090C /* DGElasticPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGElasticPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		6707D84C60F626A0B37AC0AAC13844A5 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		67C50288E9B4CD4DCBB6DB2F574BEC0A /* Pods-AnalIGzerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68087159AD1D2832D9B5156FA7B5F8B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA1C5F9C88583CB298B3738CF5E792A /* LinePlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinePlot.swift; path = Classes/Plots/LinePlot.swift; sourceTree = "<group>"; };
+		6DCB05AB8158C1B4E4E00B5CF254BDD1 /* Optional+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+SwiftInstagram.swift"; path = "Sources/Extensions/Optional+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		6E9F5A73B4BB2E35DDE7256D6CBF785A /* Pods-AnalIGzerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnalIGzerUITests-umbrella.h"; sourceTree = "<group>"; };
+		7127D5D748ABB49DCE7E9FEE78E29F56 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDrawingLayer.swift; path = Classes/Drawing/FillDrawingLayer.swift; sourceTree = "<group>"; };
+		72A43D53F577530BD6190F8DE1FD6237 /* Locations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locations.swift; path = Sources/Endpoints/Locations.swift; sourceTree = "<group>"; };
+		743C7C7D495DBB059C99137398EB8168 /* Pods-AnalIGzerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		778E8A56C70766C44BF00795B7B0CF8A /* Instagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instagram.swift; path = Sources/Instagram.swift; sourceTree = "<group>"; };
+		7FC96A1C4F332D29BEAEAC77291107C8 /* InstagramUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramUser.swift; path = Sources/Models/InstagramUser.swift; sourceTree = "<group>"; };
+		80B5BA16438E0B3D8F13F9A11E6CEBB8 /* Likes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Likes.swift; path = Sources/Endpoints/Likes.swift; sourceTree = "<group>"; };
+		84DF2C71F783756F839BF782F89526B3 /* InstagramRelationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramRelationship.swift; path = Sources/Models/InstagramRelationship.swift; sourceTree = "<group>"; };
+		8513CCB225033A75420C0FE6CB1EDB05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8763FAAD0955514FA2AE36460396089A /* ScrollableGraphView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollableGraphView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6A783B788A45C539C58BBE2386DC4E /* URL+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+SwiftInstagram.swift"; path = "Sources/Extensions/URL+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		8F7C3C65B42F624DCB64B06AF3713346 /* InstagramLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramLoginViewController.swift; path = Sources/Views/InstagramLoginViewController.swift; sourceTree = "<group>"; };
+		8F95F3502E110A7C340EF93BF96AECC6 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPointAnimation.swift; path = Classes/Plots/Animation/GraphPointAnimation.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		908F0871B03AB998450E099F3516C46C /* Pods-AnalIGzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		934093258B67631D48F70F8C990D9D6C /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLineDrawingView.swift; path = Classes/Drawing/ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95532A8DC5A4CA742FAF9AB26804F63E /* Pods-AnalIGzerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C6CA4838B7708DC34A67152FEC07D9A /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pastel.modulemap; sourceTree = "<group>"; };
+		9F588C7ED0E91BAA5898D08D7878B4D9 /* Pastel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pastel.xcconfig; sourceTree = "<group>"; };
+		A397B1B02A2973A10B4FA76986A336D1 /* Pods-AnalIGzerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A66F093CED638BD259A3E0A61B563F60 /* Data+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+SwiftInstagram.swift"; path = "Sources/Extensions/Data+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		A95E362710B764A58161B62891CDCF94 /* Dictionary+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+SwiftInstagram.swift"; path = "Sources/Extensions/Dictionary+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		AA2458614825F018C64E6FF9708DCE6A /* Pods_AnalIGzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalIGzerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2680F3665374DCB578D2FDDDC015C4 /* Pods_AnalIGzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalIGzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAD673C0B0F5B8AF66F62EA08C708CB /* DGElasticPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		AB2F7B74E9BBE25768E2E3565A1643B3 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
+		AE2DC265B8FDB942C241733E24D15421 /* Pods-AnalIGzerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalIGzerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEEF2367398B06BCFFBDB2DBE870CB2A /* InstagramError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramError.swift; path = Sources/Models/InstagramError.swift; sourceTree = "<group>"; };
+		B38D2ED382DB9C23FDCDFBA8F93A8905 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		B64D758031C6F471BDBCD48F98F8E2A8 /* Relationships.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationships.swift; path = Sources/Endpoints/Relationships.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC607F486040B6C23CCBCFD90E08868F /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
+		C0E8AE17945DE5929E3D476629CBF95A /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDataSource.swift; path = Classes/Protocols/ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		C154105F9B99DCE2B1AB32479061BF8C /* InstagramLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramLocation.swift; path = Sources/Models/InstagramLocation.swift; sourceTree = "<group>"; };
+		C35492280052059A2F995B4491AC8991 /* InstagramResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramResponse.swift; path = Sources/Models/InstagramResponse.swift; sourceTree = "<group>"; };
+		C392E0E9DFDB01C2F6659FFBDD235622 /* Comments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comments.swift; path = Sources/Endpoints/Comments.swift; sourceTree = "<group>"; };
+		C3969D43D655437389286AC9D237594C /* Pods-AnalIGzer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzer-resources.sh"; sourceTree = "<group>"; };
+		C3A9845B22E40F906E79244CCAC4FDD1 /* DGElasticPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DGElasticPullToRefresh.modulemap; sourceTree = "<group>"; };
+		C3C765B82C20B17CE6D98E112554A6D1 /* PastelPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelPoint.swift; path = Pastel/Classes/PastelPoint.swift; sourceTree = "<group>"; };
+		CA5A6F3A4782CFAB2768DBD9F0EEA54A /* SwiftInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCBCE1183D69AA83041CB5FCCD10611 /* Pods-AnalIGzerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalIGzerTests-dummy.m"; sourceTree = "<group>"; };
+		D4F85CA22A46467734CA0B5ED9DB2CF6 /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
+		D5EFE83945B6070B2E08CB84996D4C76 /* Pods-AnalIGzerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalIGzerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D61EA14C29310391B0DF4B8DB5603C69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E5C5EDDB1AB1E5AE9F3D61ED60F331 /* Pods-AnalIGzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalIGzer.debug.xcconfig"; sourceTree = "<group>"; };
+		DAEC80C550C472CE795A424ACEBFBC5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4332CAFD9C5AD3A39767F0AA1EBB1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF83E8B68EBF3183C8F952D7C17EB758 /* Pastel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-umbrella.h"; sourceTree = "<group>"; };
+		DFACA86F9E9DAF7C053A4F4D216FF8E9 /* Pastel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pastel-dummy.m"; sourceTree = "<group>"; };
+		E613D9C17228C6776C92B867C21B3B3C /* LabelPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelPool.swift; path = Classes/Reference/LabelPool.swift; sourceTree = "<group>"; };
+		E88A9A0EE713DBEF0821A6085AA9B8C2 /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		E8995F128FA04F7FB8FA74881F668083 /* Pods_AnalIGzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalIGzerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BD992234E089A328221B1E5BA5634E /* SwiftInstagram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftInstagram-prefix.pch"; sourceTree = "<group>"; };
+		EB7B0F91FF43EE3D1EC31F4241384C3A /* Pods-AnalIGzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalIGzer-dummy.m"; sourceTree = "<group>"; };
+		EBBC13D73813F26A57AA367F44802451 /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
+		ED937F8691246CC694B06C0F03BFE942 /* Pods-AnalIGzerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnalIGzerUITests-resources.sh"; sourceTree = "<group>"; };
+		F6DF0835120F57A4E0AFED9D07B1D14B /* Pods-AnalIGzerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnalIGzerTests.modulemap"; sourceTree = "<group>"; };
+		F7CA3F2742B8E4E48012B322352F0008 /* InstagramTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramTag.swift; path = Sources/Models/InstagramTag.swift; sourceTree = "<group>"; };
+		F86E998CA64146FE6B8E1224DD42999B /* Pods-AnalIGzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalIGzer-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE3C6FB4A758C3885417B793CD570742 /* Pods-AnalIGzerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnalIGzerUITests.modulemap"; sourceTree = "<group>"; };
+		FF4C2FB8A44EE1C72C581D4010D11F12 /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshExtensions.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D97D99E9536BB5F391345C03E2F335C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D541A591FF2C2E9B174C541A220F323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22981BC5A9896134BC97EE238A353D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C012A77536AD38F81E92AD6051663CE9 /* Foundation.framework in Frameworks */,
+				B89574C7A84CC7F04B6595A2A11CD9CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0A68AE1EC39DB4791669E68A49E9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A7F93F114E4E6B8B31A59BDAF511 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C6F7EB917D64DA164E1D018C7A89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF99B98B7D54AEA50C2D34872936760A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B3CD9E5A65002570AA5C52932D88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B90F37B0342FCAF685C61EA6DCF57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCB574CFAFF6F2B699ED7397A1B91A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C822C1C820DDEDEC4664250DBD7739 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B219FCAD4A2A79A9017D65F49D717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09351CEDB3C7C3FAEA11A91CF7480860 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0B5709A4AEFFF44866DE7DA363E517 /* Pods-AnalIGzer */ = {
+			isa = PBXGroup;
+			children = (
+				8513CCB225033A75420C0FE6CB1EDB05 /* Info.plist */,
+				50565F68BEAEAD3D379356908E68FE12 /* Pods-AnalIGzer.modulemap */,
+				1EB8BC08E6AEBC989D89510522925FEB /* Pods-AnalIGzer-acknowledgements.markdown */,
+				F86E998CA64146FE6B8E1224DD42999B /* Pods-AnalIGzer-acknowledgements.plist */,
+				EB7B0F91FF43EE3D1EC31F4241384C3A /* Pods-AnalIGzer-dummy.m */,
+				5531DEBCCDCD92066C02BB5D313AEF18 /* Pods-AnalIGzer-frameworks.sh */,
+				C3969D43D655437389286AC9D237594C /* Pods-AnalIGzer-resources.sh */,
+				5E6E6AD6439163D8F675BF268E505F79 /* Pods-AnalIGzer-umbrella.h */,
+				D8E5C5EDDB1AB1E5AE9F3D61ED60F331 /* Pods-AnalIGzer.debug.xcconfig */,
+				6172167A069C14D37FDE35F79B58C8BF /* Pods-AnalIGzer.release.xcconfig */,
+			);
+			name = "Pods-AnalIGzer";
+			path = "Target Support Files/Pods-AnalIGzer";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1103BD3BD2F6E70292066676A78FB571 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				428FDEEC3863B3055FEFFB75A85C6F87 /* Info.plist */,
+				9C6CA4838B7708DC34A67152FEC07D9A /* Pastel.modulemap */,
+				9F588C7ED0E91BAA5898D08D7878B4D9 /* Pastel.xcconfig */,
+				DFACA86F9E9DAF7C053A4F4D216FF8E9 /* Pastel-dummy.m */,
+				2010E5CB43729F88C9C612984910DC42 /* Pastel-prefix.pch */,
+				DF83E8B68EBF3183C8F952D7C17EB758 /* Pastel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pastel";
+			sourceTree = "<group>";
+		};
+		14BEEFF9C8504EEF8ACF268CFE42205D /* Pods-AnalIGzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0185CB963EA56EF77387D7E3B6AE15D7 /* Info.plist */,
+				F6DF0835120F57A4E0AFED9D07B1D14B /* Pods-AnalIGzerTests.modulemap */,
+				174924356DB41D64769DFD2832678548 /* Pods-AnalIGzerTests-acknowledgements.markdown */,
+				AE2DC265B8FDB942C241733E24D15421 /* Pods-AnalIGzerTests-acknowledgements.plist */,
+				CBCBCE1183D69AA83041CB5FCCD10611 /* Pods-AnalIGzerTests-dummy.m */,
+				0BDE09B4273CB83CD45A9803B656FCED /* Pods-AnalIGzerTests-frameworks.sh */,
+				1CF0C7682A2F81394708E73618E85B6B /* Pods-AnalIGzerTests-resources.sh */,
+				0935B35CD24597362EA43F6E4635182E /* Pods-AnalIGzerTests-umbrella.h */,
+				908F0871B03AB998450E099F3516C46C /* Pods-AnalIGzerTests.debug.xcconfig */,
+				95532A8DC5A4CA742FAF9AB26804F63E /* Pods-AnalIGzerTests.release.xcconfig */,
+			);
+			name = "Pods-AnalIGzerTests";
+			path = "Target Support Files/Pods-AnalIGzerTests";
+			sourceTree = "<group>";
+		};
+		1D7BC05156BE858B142A49E953205E98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68087159AD1D2832D9B5156FA7B5F8B4 /* Info.plist */,
+				00E80E11808741D4AA466A7641B97767 /* SwiftInstagram.modulemap */,
+				3D6CAF5998CDF144BB43E50F2099A644 /* SwiftInstagram.xcconfig */,
+				0E9A814FB6BD77A92B9BC918FC397003 /* SwiftInstagram-dummy.m */,
+				E9BD992234E089A328221B1E5BA5634E /* SwiftInstagram-prefix.pch */,
+				147559F56277147C112B32791C185290 /* SwiftInstagram-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftInstagram";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43D7AF08F3C1E8ACC67214133935C059 /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				24AE39F0FCC3F2E587D30899136B0263 /* DGElasticPullToRefreshConstants.swift */,
+				FF4C2FB8A44EE1C72C581D4010D11F12 /* DGElasticPullToRefreshExtensions.swift */,
+				3836E76861A3937943631B5F636E17C8 /* DGElasticPullToRefreshLoadingView.swift */,
+				3080BD64FB080E423BE07A9D504730F8 /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				6707D84C60F626A0B37AC0AAC13844A5 /* DGElasticPullToRefreshView.swift */,
+				87792FA805A404B425A0A9E6C505F5CD /* Support Files */,
+			);
+			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+		5172AA7B3552AED82D7718DBB43F3DBE /* ScrollableGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				41D6FC8E18180326F4D8238D8F454EE4 /* BarDrawingLayer.swift */,
+				0FBAC59BE4D6DDEDA07FB8E03D26F155 /* BarPlot.swift */,
+				32CF055047BBCAAA0FF83E3854F6BCD7 /* DotDrawingLayer.swift */,
+				5A52501CD5D41BE8AFBD685FB704622C /* DotPlot.swift */,
+				7127D5D748ABB49DCE7E9FEE78E29F56 /* FillDrawingLayer.swift */,
+				27B848FE051ACD99E337CB1B152D2FF5 /* GradientDrawingLayer.swift */,
+				3D216548FDE6709957D28E86DEE39A3A /* GraphPoint.swift */,
+				8F95F3502E110A7C340EF93BF96AECC6 /* GraphPointAnimation.swift */,
+				E613D9C17228C6776C92B867C21B3B3C /* LabelPool.swift */,
+				AB2F7B74E9BBE25768E2E3565A1643B3 /* LineDrawingLayer.swift */,
+				6BA1C5F9C88583CB298B3738CF5E792A /* LinePlot.swift */,
+				514175C09168C3A31487218D9C34D2FD /* Plot.swift */,
+				934093258B67631D48F70F8C990D9D6C /* ReferenceLineDrawingView.swift */,
+				61DB875DAA42D89D08D7857DCE2A80C4 /* ReferenceLines.swift */,
+				06A297E5FAE11E3CA7753B91608896D7 /* ScrollableGraphView.swift */,
+				C0E8AE17945DE5929E3D476629CBF95A /* ScrollableGraphViewDataSource.swift */,
+				B38D2ED382DB9C23FDCDFBA8F93A8905 /* ScrollableGraphViewDrawingDelegate.swift */,
+				1EB3DBA0C751AD928ED113F2D436405B /* ScrollableGraphViewDrawingLayer.swift */,
+				698CD0AF55F0E6C15BE519E094E2B86B /* Support Files */,
+			);
+			path = ScrollableGraphView;
+			sourceTree = "<group>";
+		};
+		698CD0AF55F0E6C15BE519E094E2B86B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D61EA14C29310391B0DF4B8DB5603C69 /* Info.plist */,
+				E88A9A0EE713DBEF0821A6085AA9B8C2 /* ScrollableGraphView.modulemap */,
+				26606B7D32EB1F60878F5EAB57F505AB /* ScrollableGraphView.xcconfig */,
+				BC607F486040B6C23CCBCFD90E08868F /* ScrollableGraphView-dummy.m */,
+				D4F85CA22A46467734CA0B5ED9DB2CF6 /* ScrollableGraphView-prefix.pch */,
+				EBBC13D73813F26A57AA367F44802451 /* ScrollableGraphView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScrollableGraphView";
+			sourceTree = "<group>";
+		};
+		6E0A6E8C08A3378505D4D334EEC077C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D7AF08F3C1E8ACC67214133935C059 /* DGElasticPullToRefresh */,
+				C47777ED58E18EFAFE3FC69F337B256B /* Pastel */,
+				5172AA7B3552AED82D7718DBB43F3DBE /* ScrollableGraphView */,
+				DE524AE6CEA5FA4914828852D9478E51 /* SwiftInstagram */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7099B55211179004FFEC663667141E1B /* Pods-AnalIGzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC80C550C472CE795A424ACEBFBC5D /* Info.plist */,
+				FE3C6FB4A758C3885417B793CD570742 /* Pods-AnalIGzerUITests.modulemap */,
+				D5EFE83945B6070B2E08CB84996D4C76 /* Pods-AnalIGzerUITests-acknowledgements.markdown */,
+				0A3E79109C7E0AAB7672CBC031149855 /* Pods-AnalIGzerUITests-acknowledgements.plist */,
+				0E51EC5F517F582530A032CD70D5D702 /* Pods-AnalIGzerUITests-dummy.m */,
+				743C7C7D495DBB059C99137398EB8168 /* Pods-AnalIGzerUITests-frameworks.sh */,
+				ED937F8691246CC694B06C0F03BFE942 /* Pods-AnalIGzerUITests-resources.sh */,
+				6E9F5A73B4BB2E35DDE7256D6CBF785A /* Pods-AnalIGzerUITests-umbrella.h */,
+				A397B1B02A2973A10B4FA76986A336D1 /* Pods-AnalIGzerUITests.debug.xcconfig */,
+				67C50288E9B4CD4DCBB6DB2F574BEC0A /* Pods-AnalIGzerUITests.release.xcconfig */,
+			);
+			name = "Pods-AnalIGzerUITests";
+			path = "Target Support Files/Pods-AnalIGzerUITests";
+			sourceTree = "<group>";
+		};
+		712A2D3B330D5F4295CDB3588792B7C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0B5709A4AEFFF44866DE7DA363E517 /* Pods-AnalIGzer */,
+				14BEEFF9C8504EEF8ACF268CFE42205D /* Pods-AnalIGzerTests */,
+				7099B55211179004FFEC663667141E1B /* Pods-AnalIGzerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6E0A6E8C08A3378505D4D334EEC077C8 /* Pods */,
+				97F862E739E564936CE8869B6E8F254F /* Products */,
+				712A2D3B330D5F4295CDB3588792B7C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87792FA805A404B425A0A9E6C505F5CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A9845B22E40F906E79244CCAC4FDD1 /* DGElasticPullToRefresh.modulemap */,
+				63FC88DD3730BCAC2402FA2868E5090C /* DGElasticPullToRefresh.xcconfig */,
+				4A164691937A51EEC2BADA2BC65070E6 /* DGElasticPullToRefresh-dummy.m */,
+				AAAD673C0B0F5B8AF66F62EA08C708CB /* DGElasticPullToRefresh-prefix.pch */,
+				295F95FC5EEFFF51F6ED27254ED60985 /* DGElasticPullToRefresh-umbrella.h */,
+				DB4332CAFD9C5AD3A39767F0AA1EBB1C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DGElasticPullToRefresh";
+			sourceTree = "<group>";
+		};
+		97F862E739E564936CE8869B6E8F254F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373260DE8E5B9982F522A7A2EFED0C92 /* DGElasticPullToRefresh.framework */,
+				0480812B75BF2E1018E7C520F0A46320 /* Pastel.framework */,
+				AA2680F3665374DCB578D2FDDDC015C4 /* Pods_AnalIGzer.framework */,
+				E8995F128FA04F7FB8FA74881F668083 /* Pods_AnalIGzerTests.framework */,
+				AA2458614825F018C64E6FF9708DCE6A /* Pods_AnalIGzerUITests.framework */,
+				8763FAAD0955514FA2AE36460396089A /* ScrollableGraphView.framework */,
+				CA5A6F3A4782CFAB2768DBD9F0EEA54A /* SwiftInstagram.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47777ED58E18EFAFE3FC69F337B256B /* Pastel */ = {
+			isa = PBXGroup;
+			children = (
+				1C4DE713D78A0B60951B4DD54987B72B /* PastelGradient.swift */,
+				1CA1D0F1B1D15342A86CAAB8CA7A4F21 /* PastelLabel.swift */,
+				C3C765B82C20B17CE6D98E112554A6D1 /* PastelPoint.swift */,
+				2C90C05C3670434C86742A5C1D706B1E /* PastelView.swift */,
+				1103BD3BD2F6E70292066676A78FB571 /* Support Files */,
+			);
+			path = Pastel;
+			sourceTree = "<group>";
+		};
+		D9553759D026EFF3F7C53A1CF27E16E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				36A3F6114680E11A3DCF38E24E027D8C /* Array+SwiftInstagram.swift */,
+				C392E0E9DFDB01C2F6659FFBDD235622 /* Comments.swift */,
+				A66F093CED638BD259A3E0A61B563F60 /* Data+SwiftInstagram.swift */,
+				A95E362710B764A58161B62891CDCF94 /* Dictionary+SwiftInstagram.swift */,
+				778E8A56C70766C44BF00795B7B0CF8A /* Instagram.swift */,
+				3F9617C8E30CAFE54A83B8C118ADE631 /* InstagramComment.swift */,
+				AEEF2367398B06BCFFBDB2DBE870CB2A /* InstagramError.swift */,
+				C154105F9B99DCE2B1AB32479061BF8C /* InstagramLocation.swift */,
+				8F7C3C65B42F624DCB64B06AF3713346 /* InstagramLoginViewController.swift */,
+				42E2129F80BCA496425BE2493F20043B /* InstagramMedia.swift */,
+				84DF2C71F783756F839BF782F89526B3 /* InstagramRelationship.swift */,
+				C35492280052059A2F995B4491AC8991 /* InstagramResponse.swift */,
+				371EA4BCDF3C3A1F448C93ACA16AEC19 /* InstagramScope.swift */,
+				F7CA3F2742B8E4E48012B322352F0008 /* InstagramTag.swift */,
+				7FC96A1C4F332D29BEAEAC77291107C8 /* InstagramUser.swift */,
+				4D4422CDC185AA4C4506AC963CDB5A5A /* KeychainSwiftDistrib.swift */,
+				80B5BA16438E0B3D8F13F9A11E6CEBB8 /* Likes.swift */,
+				72A43D53F577530BD6190F8DE1FD6237 /* Locations.swift */,
+				29DEFB4EAFB7B51C2AF1E21C982FCB4C /* Media.swift */,
+				6DCB05AB8158C1B4E4E00B5CF254BDD1 /* Optional+SwiftInstagram.swift */,
+				B64D758031C6F471BDBCD48F98F8E2A8 /* Relationships.swift */,
+				41B7B5CB670D03A3CFA89E23BB9D589E /* Tags.swift */,
+				8E6A783B788A45C539C58BBE2386DC4E /* URL+SwiftInstagram.swift */,
+				48085792C765DFE4BAA1DA76B825706E /* Users.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DE524AE6CEA5FA4914828852D9478E51 /* SwiftInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				D9553759D026EFF3F7C53A1CF27E16E9 /* Core */,
+				1D7BC05156BE858B142A49E953205E98 /* Support Files */,
+			);
+			path = SwiftInstagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03A5B718D3D56774970EB2B46A4265AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83545CC4977D2B3D91AA8D64D13E8D41 /* Pastel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA9434FBF75D8FAB1311365021A344 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C2DD91E067C8AC39CE5A94BC1184E /* SwiftInstagram-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D88F8C74589B35C7576D97BFD91F509 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7A1D8482B10AE9D62BE6CE85AA17C9 /* Pods-AnalIGzer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5EF457FAA7736E47E063551250C311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CB845AA4458897C9D0D1ACF109B493 /* ScrollableGraphView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899B2986F23E21B7858279B1D9AEACF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B50D23BAB0F0ED78FAA9BCC5012141 /* DGElasticPullToRefresh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26402DDEC3FD31D0B182AE45FA7AC63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763EE2A00C98AF4C4C1E154F57409D51 /* Pods-AnalIGzerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2C0B5060E3E7782F22BEFDBC58584B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9009153CF935AA83EE3EB786B7827 /* Pods-AnalIGzerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D8FFD9FE0349585D98227B62C7D8C1E /* DGElasticPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC532436E4D425E0B9AFF03469C71C1 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */;
+			buildPhases = (
+				899B2986F23E21B7858279B1D9AEACF4 /* Headers */,
+				9D793EAD85A8CA8A87165D65E80E7282 /* Sources */,
+				22981BC5A9896134BC97EE238A353D7E /* Frameworks */,
+				5792F638F7BCABA76C796DCB11242F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGElasticPullToRefresh;
+			productName = DGElasticPullToRefresh;
+			productReference = 373260DE8E5B9982F522A7A2EFED0C92 /* DGElasticPullToRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70552AD465F43C85F3C8E9427ED7E23F /* Pods-AnalIGzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645EA0DE5E9834909A375F2BBD7EA407 /* Build configuration list for PBXNativeTarget "Pods-AnalIGzerUITests" */;
+			buildPhases = (
+				AE2C0B5060E3E7782F22BEFDBC58584B /* Headers */,
+				C55E19FA769A131CDEF97A3EFDFC3AC8 /* Sources */,
+				5F0A68AE1EC39DB4791669E68A49E9C2 /* Frameworks */,
+				33D78D4378F03701D6C5223F6504959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D69DA2EC2E87DA548F2757564F6456 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnalIGzerUITests";
+			productName = "Pods-AnalIGzerUITests";
+			productReference = AA2458614825F018C64E6FF9708DCE6A /* Pods_AnalIGzerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		867FC1AC32E583B5694F72295342E3AB /* SwiftInstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3461A52C1D3B6568757FDA3DA7A31BB /* Build configuration list for PBXNativeTarget "SwiftInstagram" */;
+			buildPhases = (
+				04AA9434FBF75D8FAB1311365021A344 /* Headers */,
+				A1B10F24B14962EEFC452CF0FD8D954B /* Sources */,
+				CCCB574CFAFF6F2B699ED7397A1B91A0 /* Frameworks */,
+				F10045BB82D98B4B485285673F99CB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftInstagram;
+			productName = SwiftInstagram;
+			productReference = CA5A6F3A4782CFAB2768DBD9F0EEA54A /* SwiftInstagram.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B802173CC1EAB3FC68B97D010400ABEA /* Pastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A34CF752E7B67CB28E532643144AD8 /* Build configuration list for PBXNativeTarget "Pastel" */;
+			buildPhases = (
+				03A5B718D3D56774970EB2B46A4265AD /* Headers */,
+				F052363ED7C47F2C699163CE749D9FDE /* Sources */,
+				AE5B3CD9E5A65002570AA5C52932D88E /* Frameworks */,
+				73EE9E4A039A550A4C5DCEA8A1F6AB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pastel;
+			productName = Pastel;
+			productReference = 0480812B75BF2E1018E7C520F0A46320 /* Pastel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2C7680B9CE6C87065E90234077CE310 /* ScrollableGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE46D430D3E01B03935C0816E0BE832 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */;
+			buildPhases = (
+				7F5EF457FAA7736E47E063551250C311 /* Headers */,
+				EB950474A4E9E3E8D121BA04379723C5 /* Sources */,
+				CE2B219FCAD4A2A79A9017D65F49D717 /* Frameworks */,
+				FE1AEB076A5EDA0206FFEA6045992762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableGraphView;
+			productName = ScrollableGraphView;
+			productReference = 8763FAAD0955514FA2AE36460396089A /* ScrollableGraphView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2E7773472835AFB632AD8F6C0B1F7CB /* Pods-AnalIGzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E1F4AA574DE72036B97592B7B6D1AD /* Build configuration list for PBXNativeTarget "Pods-AnalIGzerTests" */;
+			buildPhases = (
+				A26402DDEC3FD31D0B182AE45FA7AC63 /* Headers */,
+				258222A6631FAD09A32A1952CE3E8ADC /* Sources */,
+				0D97D99E9536BB5F391345C03E2F335C /* Frameworks */,
+				FB5966A2E217B610D4A7EC49484946D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F835379FF919BCE324AC4A5CB1B632B /* PBXTargetDependency */,
+			);
+			name = "Pods-AnalIGzerTests";
+			productName = "Pods-AnalIGzerTests";
+			productReference = E8995F128FA04F7FB8FA74881F668083 /* Pods_AnalIGzerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA3B9DBB80E92A26775DA0310AF9EF27 /* Pods-AnalIGzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5E0EDF3879C3657C4FCFAE9CEE8BD /* Build configuration list for PBXNativeTarget "Pods-AnalIGzer" */;
+			buildPhases = (
+				3D88F8C74589B35C7576D97BFD91F509 /* Headers */,
+				18C1C97AD9B90093D7D4E414E040B74A /* Sources */,
+				762C6F7EB917D64DA164E1D018C7A89A /* Frameworks */,
+				97C988B3BE112F23B85D992612FE4B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D597B127BC9AA6E75CB1728576E3B2A3 /* PBXTargetDependency */,
+				552D7B591301B4B049BA2692FB12DF30 /* PBXTargetDependency */,
+				4D762E1D035D534A70D59E2948DD83D7 /* PBXTargetDependency */,
+				CB849C06968A15F05B14D09441A8FB01 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnalIGzer";
+			productName = "Pods-AnalIGzer";
+			productReference = AA2680F3665374DCB578D2FDDDC015C4 /* Pods_AnalIGzer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97F862E739E564936CE8869B6E8F254F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8FFD9FE0349585D98227B62C7D8C1E /* DGElasticPullToRefresh */,
+				B802173CC1EAB3FC68B97D010400ABEA /* Pastel */,
+				DA3B9DBB80E92A26775DA0310AF9EF27 /* Pods-AnalIGzer */,
+				D2E7773472835AFB632AD8F6C0B1F7CB /* Pods-AnalIGzerTests */,
+				70552AD465F43C85F3C8E9427ED7E23F /* Pods-AnalIGzerUITests */,
+				C2C7680B9CE6C87065E90234077CE310 /* ScrollableGraphView */,
+				867FC1AC32E583B5694F72295342E3AB /* SwiftInstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D78D4378F03701D6C5223F6504959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5792F638F7BCABA76C796DCB11242F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EE9E4A039A550A4C5DCEA8A1F6AB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C988B3BE112F23B85D992612FE4B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10045BB82D98B4B485285673F99CB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5966A2E217B610D4A7EC49484946D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1AEB076A5EDA0206FFEA6045992762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C1C97AD9B90093D7D4E414E040B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A6023A32F47A57B95B6A4D94754471 /* Pods-AnalIGzer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258222A6631FAD09A32A1952CE3E8ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81274748C36233BE1F93CD1DD3B6FC0 /* Pods-AnalIGzerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D793EAD85A8CA8A87165D65E80E7282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACA8A770C16C409F941B0763CA02881 /* DGElasticPullToRefresh-dummy.m in Sources */,
+				F7F24878C8E2013CBF1992AE46709066 /* DGElasticPullToRefreshConstants.swift in Sources */,
+				7728B9598BFA0FC14FB583D14EDB2C00 /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				A81591792EA22D586F34FDA7063EFF2D /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				ABD6D62FBBFB93AB92954B25476E42A0 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				36B5BB9EA1AEB2A6A5391D7502AD310A /* DGElasticPullToRefreshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B10F24B14962EEFC452CF0FD8D954B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9570B0719BE29203EDC3DB4BF87C77 /* Array+SwiftInstagram.swift in Sources */,
+				7D89FE45186E8B9D28519A473636F1B9 /* Comments.swift in Sources */,
+				85CE8F20D6793E188E4C0F1C49DC6774 /* Data+SwiftInstagram.swift in Sources */,
+				2C644A0412023C7D9F39CF84034CAAC2 /* Dictionary+SwiftInstagram.swift in Sources */,
+				697700C055A9891332690D78DD7915DF /* Instagram.swift in Sources */,
+				BF2D2EE97F23CBF2180082EFF4FB3990 /* InstagramComment.swift in Sources */,
+				C73D220B7AB2794E2D442B2F333B90A8 /* InstagramError.swift in Sources */,
+				116724FE7D4A36354B314C2ECD39F275 /* InstagramLocation.swift in Sources */,
+				430B93A1C2EBAD107A34DC8BE4CD92AA /* InstagramLoginViewController.swift in Sources */,
+				F6CE5DC9F7FE0C6E6FE9617AA973FB78 /* InstagramMedia.swift in Sources */,
+				57CC42CD953DD977357B45D232B417F1 /* InstagramRelationship.swift in Sources */,
+				F02B00DDE562D9F3D610310A64F45749 /* InstagramResponse.swift in Sources */,
+				EC49E201D469D6C48EC84EFFAB82D3A5 /* InstagramScope.swift in Sources */,
+				A6C8889CBF69AF8B77AD59F647F9BF6F /* InstagramTag.swift in Sources */,
+				5CA87256F696D81CC8C587BCFE55B7D5 /* InstagramUser.swift in Sources */,
+				B1EBC928DA1FCA69F2EF8EABECB29467 /* KeychainSwiftDistrib.swift in Sources */,
+				F36BAA67C3F671C1064E015C89FFE7A3 /* Likes.swift in Sources */,
+				6145B279A7EC499F2644CFBA23DE6A39 /* Locations.swift in Sources */,
+				DBBA457F22521F41B3C9A3564E706C44 /* Media.swift in Sources */,
+				C3C4E4536B0132ADFC1F30BFD89CA894 /* Optional+SwiftInstagram.swift in Sources */,
+				C3D537060FB80816D1470DDD522D4A54 /* Relationships.swift in Sources */,
+				0F0ECD8FB5D7C5A0D33BD36C0ADA5812 /* SwiftInstagram-dummy.m in Sources */,
+				2B0B13D59CE692D1D7DDAD50A518427A /* Tags.swift in Sources */,
+				24CEE2EDDA0EDCF0864A65DBDE2375D3 /* URL+SwiftInstagram.swift in Sources */,
+				4A843FC4333F472DCC46AA558503B1F8 /* Users.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55E19FA769A131CDEF97A3EFDFC3AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DED2DA218B157321C7FA3A3007059D /* Pods-AnalIGzerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB950474A4E9E3E8D121BA04379723C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB7529DD084D470CEF83176C2CE09A7 /* BarDrawingLayer.swift in Sources */,
+				53B21281BDDBA344C3DB8CA1CFB20AF1 /* BarPlot.swift in Sources */,
+				08F75A3E552C5FB0030A007EAC31B2C2 /* DotDrawingLayer.swift in Sources */,
+				B9EE0E94F6724CB8926D3DFC8B4AA332 /* DotPlot.swift in Sources */,
+				9B309C17CDEAB4274D025631EDB351CA /* FillDrawingLayer.swift in Sources */,
+				B2CD0B2B1AC3E3D7C28BBE7622B96778 /* GradientDrawingLayer.swift in Sources */,
+				D91A3F7D717A2F507F29F3BAF2058186 /* GraphPoint.swift in Sources */,
+				1CE29447372B0DD7B4B26D270EA9F2C7 /* GraphPointAnimation.swift in Sources */,
+				94DA08DE5D00E34A4EB331501CB89BD6 /* LabelPool.swift in Sources */,
+				8CB08E0112FE77350B8F4254FF8151FD /* LineDrawingLayer.swift in Sources */,
+				09C45B88B9864CA5688FF3DCFE1DC958 /* LinePlot.swift in Sources */,
+				7CEB6BC705BF1FD427C76011FDC3EB3A /* Plot.swift in Sources */,
+				DC5993B1E32C0AF3BE9A3BF3504C07BF /* ReferenceLineDrawingView.swift in Sources */,
+				71CA702120A75FFD096EC18C6990803A /* ReferenceLines.swift in Sources */,
+				32E71F15745A847E7262B0460AC064F9 /* ScrollableGraphView-dummy.m in Sources */,
+				80FC61F077C7758EEA50C0383C0C6971 /* ScrollableGraphView.swift in Sources */,
+				E4E38A9132AB8F6713B51D17FCF4071C /* ScrollableGraphViewDataSource.swift in Sources */,
+				A5D4059A82C376363A00F577757C959E /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
+				5B743A2BC1EBCFB2425ECA4DDD8CAC27 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F052363ED7C47F2C699163CE749D9FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE9F7AF93979C5A2B8E38A8F7F6E981 /* Pastel-dummy.m in Sources */,
+				BD08ADD7673A97EC6623B2789B7274CC /* PastelGradient.swift in Sources */,
+				57872E858EFEAEEA96211227488B8C55 /* PastelLabel.swift in Sources */,
+				72DC939603A9F0BBD0E8D66457236FE1 /* PastelPoint.swift in Sources */,
+				AE114A478A24C3F749CD2AC1516C6007 /* PastelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D69DA2EC2E87DA548F2757564F6456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AnalIGzer";
+			target = DA3B9DBB80E92A26775DA0310AF9EF27 /* Pods-AnalIGzer */;
+			targetProxy = 1CAE75EB82D45DA13B96BD3E05FE0F9A /* PBXContainerItemProxy */;
+		};
+		3F835379FF919BCE324AC4A5CB1B632B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AnalIGzer";
+			target = DA3B9DBB80E92A26775DA0310AF9EF27 /* Pods-AnalIGzer */;
+			targetProxy = 241EFE11F4508AF348C86B979A833808 /* PBXContainerItemProxy */;
+		};
+		4D762E1D035D534A70D59E2948DD83D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollableGraphView;
+			target = C2C7680B9CE6C87065E90234077CE310 /* ScrollableGraphView */;
+			targetProxy = E23E90CA85ACB996F836093634A795CF /* PBXContainerItemProxy */;
+		};
+		552D7B591301B4B049BA2692FB12DF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pastel;
+			target = B802173CC1EAB3FC68B97D010400ABEA /* Pastel */;
+			targetProxy = 3F318CCA22249472DFCF6EEAA01D23EA /* PBXContainerItemProxy */;
+		};
+		CB849C06968A15F05B14D09441A8FB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftInstagram;
+			target = 867FC1AC32E583B5694F72295342E3AB /* SwiftInstagram */;
+			targetProxy = 05AAF81A6C35782587BBCA41A99C58C4 /* PBXContainerItemProxy */;
+		};
+		D597B127BC9AA6E75CB1728576E3B2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGElasticPullToRefresh;
+			target = 3D8FFD9FE0349585D98227B62C7D8C1E /* DGElasticPullToRefresh */;
+			targetProxy = 77F29DEC7C86588D6256826F44D62DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F5D9E1277B28BD9F546F00851CCA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F588C7ED0E91BAA5898D08D7878B4D9 /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_MODULE_NAME = Pastel;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		317C10E5BDFEB0C6A4E02D0F76115C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6172167A069C14D37FDE35F79B58C8BF /* Pods-AnalIGzer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzer/Pods-AnalIGzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C24526C1D85E466634A886170C5A46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95532A8DC5A4CA742FAF9AB26804F63E /* Pods-AnalIGzerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzerTests/Pods-AnalIGzerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D0868276FEB3B221963954CCB127B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F588C7ED0E91BAA5898D08D7878B4D9 /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_MODULE_NAME = Pastel;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6504A71D9AB15FDA25704406094BD7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6CAF5998CDF144BB43E50F2099A644 /* SwiftInstagram.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftInstagram/SwiftInstagram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftInstagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftInstagram/SwiftInstagram.modulemap";
+				PRODUCT_MODULE_NAME = SwiftInstagram;
+				PRODUCT_NAME = SwiftInstagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D3CCAB56C3E8743F331AF25DE5A0D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E5C5EDDB1AB1E5AE9F3D61ED60F331 /* Pods-AnalIGzer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzer/Pods-AnalIGzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7636B657E07B5DF923E788050A7682C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FC88DD3730BCAC2402FA2868E5090C /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = DGElasticPullToRefresh;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B7B2BDAE4E6AD35ED2B1C827DA6C8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FC88DD3730BCAC2402FA2868E5090C /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = DGElasticPullToRefresh;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D187AA3D14AA9FF17D40B7D7A57067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908F0871B03AB998450E099F3516C46C /* Pods-AnalIGzerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzerTests/Pods-AnalIGzerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3104CD4790CA070991DE29082B871F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26606B7D32EB1F60878F5EAB57F505AB /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_MODULE_NAME = ScrollableGraphView;
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3CDFD64A7B91B13CD24296486C39B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6CAF5998CDF144BB43E50F2099A644 /* SwiftInstagram.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftInstagram/SwiftInstagram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftInstagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftInstagram/SwiftInstagram.modulemap";
+				PRODUCT_MODULE_NAME = SwiftInstagram;
+				PRODUCT_NAME = SwiftInstagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBE3195A11A4AA21F5F8DE714A435B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26606B7D32EB1F60878F5EAB57F505AB /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_MODULE_NAME = ScrollableGraphView;
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD5C36AE1DA1D872CBFC25BD2962A55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A397B1B02A2973A10B4FA76986A336D1 /* Pods-AnalIGzerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzerUITests/Pods-AnalIGzerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCA81459A55D923C2B9D8A813BE284C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C50288E9B4CD4DCBB6DB2F574BEC0A /* Pods-AnalIGzerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnalIGzerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnalIGzerUITests/Pods-AnalIGzerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A5E0EDF3879C3657C4FCFAE9CEE8BD /* Build configuration list for PBXNativeTarget "Pods-AnalIGzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3CCAB56C3E8743F331AF25DE5A0D09 /* Debug */,
+				317C10E5BDFEB0C6A4E02D0F76115C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE46D430D3E01B03935C0816E0BE832 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3104CD4790CA070991DE29082B871F5 /* Debug */,
+				BBE3195A11A4AA21F5F8DE714A435B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A34CF752E7B67CB28E532643144AD8 /* Build configuration list for PBXNativeTarget "Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F5D9E1277B28BD9F546F00851CCA12 /* Debug */,
+				5D0868276FEB3B221963954CCB127B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC532436E4D425E0B9AFF03469C71C1 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7B2BDAE4E6AD35ED2B1C827DA6C8B4 /* Debug */,
+				7636B657E07B5DF923E788050A7682C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E1F4AA574DE72036B97592B7B6D1AD /* Build configuration list for PBXNativeTarget "Pods-AnalIGzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D187AA3D14AA9FF17D40B7D7A57067D /* Debug */,
+				4C24526C1D85E466634A886170C5A46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645EA0DE5E9834909A375F2BBD7EA407 /* Build configuration list for PBXNativeTarget "Pods-AnalIGzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C36AE1DA1D872CBFC25BD2962A55A /* Debug */,
+				CCA81459A55D923C2B9D8A813BE284C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3461A52C1D3B6568757FDA3DA7A31BB /* Build configuration list for PBXNativeTarget "SwiftInstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6504A71D9AB15FDA25704406094BD7C7 /* Debug */,
+				B3CDFD64A7B91B13CD24296486C39B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,30 @@
+PODS:
+  - DGElasticPullToRefresh (1.1)
+  - Pastel (0.5.1)
+  - ScrollableGraphView (4.0.6)
+  - SwiftInstagram (1.1.2):
+    - SwiftInstagram/Core (= 1.1.2)
+  - SwiftInstagram/Core (1.1.2)
+
+DEPENDENCIES:
+  - DGElasticPullToRefresh
+  - Pastel
+  - ScrollableGraphView
+  - SwiftInstagram (~> 1.1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DGElasticPullToRefresh
+    - Pastel
+    - ScrollableGraphView
+    - SwiftInstagram
+
+SPEC CHECKSUMS:
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Pastel: b3dd5b8d612dac06ae7c63c97c45c900829bc139
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SwiftInstagram: 1579fd6ffb294de557bc47deddbe719fde6e2058
+
+PODFILE CHECKSUM: 1a7e9f6190ee52d17818624866edb3b2f1a76432
+
+COCOAPODS: 1.5.3
